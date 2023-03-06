@@ -4,7 +4,7 @@ import speech_recognition as sr
 from os import path
 from pydub import AudioSegment
  
-clip_name = "vid2"
+clip_name = "vid1"
 
 #Load the Video Clip
 video = moviepy.editor.VideoFileClip("./videos/"+ clip_name + ".mp4")
